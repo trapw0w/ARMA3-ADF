@@ -1,0 +1,524 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=55;
+	};
+	class LayerIndexProvider
+	{
+		nextID=3;
+	};
+	class Camera
+	{
+		pos[]={8793.9238,107.44036,5340.1504};
+		dir[]={0.09914536,-0.59215599,-0.79985797};
+		up[]={0.072837405,0.80568004,-0.58762658};
+		aside[]={-0.99248636,-2.178349e-006,-0.12301789};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Structures_F_Mil_Shelters",
+	"A3_Structures_F_Civ_Camping",
+	"A3_Structures_F_EPC_Items_Documents",
+	"A3_Structures_F_Items_Documents",
+	"A3_Structures_F_Mil_Fortification",
+	"A3_Structures_F_EPC_Items_Electronics",
+	"A3_Structures_F_EPA_Mil_Scrapyard",
+	"A3_Structures_F_Items_Stationery",
+	"A3_Props_F_Exp_Military_Camps",
+	"A3_Characters_F",
+	"A3_Structures_F_Mil_Helipads"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=6;
+		class Item0
+		{
+			className="A3_Structures_F_Mil";
+			name="Arma 3 - Military Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Structures_F";
+			name="Arma 3 - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Structures_F_EPC";
+			name="Arma 3 Win Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Structures_F_EPA";
+			name="Arma 3 Survive Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="A3_Props_F_Exp";
+			name="Arma 3 Apex - Decorative and Mission Objects";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=5507755;
+class ScenarioData
+{
+	author="Trap";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2015;
+		month=10;
+		day=6;
+		hour=12;
+		minute=0;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Entities
+	{
+		items=3;
+		class Item0
+		{
+			dataType="Layer";
+			name="Base";
+			class Entities
+			{
+				items=17;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8782.8193,94.852905,5319.9087};
+						angles[]={0,4.3316617,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=16;
+					type="CamoNet_OPFOR_F";
+					atlOffset=1.0870743;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.501,92.91671,5319.6045};
+						angles[]={0,4.2875028,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=2134529;
+					};
+					id=27;
+					type="Land_CampingTable_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.4053,93.328545,5319.7612};
+						angles[]={0,3.9653468,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1490458458;
+					};
+					id=21;
+					type="Land_Document_01_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.6699,93.331169,5319.4697};
+						angles[]={0,4.3693652,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1875562661;
+					};
+					id=23;
+					type="Land_FilePhotos_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8810.9639,94.604477,5319.3159};
+						angles[]={0.0059100273,4.2947021,0.0009765625};
+					};
+					side="Empty";
+					class Attributes
+					{
+						aiRadarUsage=-1054867456;
+					};
+					id=13;
+					type="Land_HBarrier_5_F";
+					atlOffset=1.0948257;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8810.9131,93.256737,5319.1602};
+						angles[]={0.0059100273,4.2947021,0.0009765625};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1054867456;
+					};
+					id=14;
+					type="Land_HBarrier_5_F";
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8789.5986,94.653625,5304.334};
+						angles[]={0,5.938127,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+						aiRadarUsage=-1054867456;
+					};
+					id=6;
+					type="Land_HBarrier_Big_F";
+					atlOffset=0.93429565;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8782.3574,94.334969,5340.0649};
+						angles[]={0.0014648439,1.14863,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=7;
+					type="Land_HBarrier_1_F";
+					atlOffset=1.1230698;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8786.5596,94.51963,5342.1138};
+						angles[]={0,1.14863,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=9;
+					type="Land_HBarrier_1_F";
+					atlOffset=1.3105774;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.123,94.522964,5336.6973};
+						angles[]={0,5.7910023,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=10;
+					type="Land_HBarrier_1_F";
+					atlOffset=1.3109283;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8791.002,94.519928,5342.5215};
+						angles[]={0,5.9192557,0};
+					};
+					side="Empty";
+					class Attributes
+					{
+					};
+					id=11;
+					type="Land_HBarrier_1_F";
+					atlOffset=1.3102036;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.2178,93.479286,5320.1636};
+						angles[]={0,1.1206843,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1465558167;
+					};
+					id=18;
+					type="Land_Laptop_device_F";
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8783.9434,92.96032,5315.3257};
+						angles[]={0,2.7764637,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+					};
+					id=17;
+					type="Land_Pallet_MilBoxes_F";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.5557,93.331093,5319.9424};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-685266167;
+					};
+					id=24;
+					type="Land_PenBlack_F";
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8781.5371,93.32756,5319.5527};
+					};
+					side="Empty";
+					class Attributes
+					{
+						aiRadarUsage=-1313167729;
+					};
+					id=25;
+					type="Land_Photos_V3_F";
+					atlOffset=0.0034408569;
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8780.6602,93.319855,5318.9229};
+						angles[]={0,1.148035,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1070295464;
+					};
+					id=19;
+					type="Land_TripodScreen_01_dual_v1_F";
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8780.4492,93.43586,5320.8433};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						aiRadarUsage=-1069774295;
+					};
+					id=20;
+					type="Land_SatelliteAntenna_01_F";
+				};
+			};
+			id=28;
+			atlOffset=0.18527222;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8793.1104,92.51165,5328.877};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="call{comment ""Exported from Arsenal by Trap""; " \n " " \n "comment ""Remove existing items""; " \n "removeAllWeapons this; " \n "removeAllItems this; " \n "removeAllAssignedItems this; " \n "removeUniform this; " \n "removeVest this; " \n "removeBackpack this; " \n "removeHeadgear this; " \n "removeGoggles this; " \n " " \n "comment ""Add containers""; " \n "this forceAddUniform ""SOTG_Uniform_3""; " \n "this addVest ""FAPC_3_MC""; " \n "this addItemToVest ""30Rnd_556x45_Stanag""; " \n "this addItemToVest ""16Rnd_9x21_Mag""; " \n "this addHeadgear ""SOTG_Cap_AU_D""; " \n "this addGoggles ""G_Bandanna_tan""; " \n " " \n "comment ""Add weapons""; " \n "this addWeapon ""SOTG_M4A5_D2""; " \n "this addPrimaryWeaponItem ""muzzle_snds_m_snd_F""; " \n "this addPrimaryWeaponItem ""acc_pointer_IR""; " \n "this addPrimaryWeaponItem ""optic_Holosight""; " \n "this addWeapon ""hgun_P07_F""; " \n "this addWeapon ""Laserdesignator""; " \n " " \n "comment ""Add items""; " \n "this linkItem ""ItemMap""; " \n "this linkItem ""ItemCompass""; " \n "this linkItem ""ItemWatch""; " \n "this linkItem ""ItemRadio""; " \n "this linkItem ""ItemGPS""; " \n " " \n "comment ""Set identity""; " \n "this setFace ""WhiteHead_14""; " \n "this setSpeaker ""male01eng""; " \n "}";
+						isPlayer=1;
+					};
+					id=50;
+					type="B_recon_TL_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=49;
+		};
+		class Item2
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8794.1396,92.510208,5323.2109};
+				angles[]={-0,2.7589865,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=54;
+			type="Land_HelipadCircle_F";
+		};
+	};
+};
